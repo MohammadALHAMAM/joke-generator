@@ -1,0 +1,29 @@
+.favorites-card {
+  border: none;
+  border-radius: 15px;
+  margin-top: 2rem;
+  overflow: hidden;
+}
+
+.favorites-card .card-header {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%) !important;
+  color: white !important;
+  font-weight: bold;
+  padding: 1.5rem;
+}
+
+.favorites-card .list-group-item {
+  border-left: 4px solid #f5576c;
+  transition: all 0.3s ease;
+}
+
+.favorites-card .list-group-item:hover {
+  background-color: #f8f9fa;
+  transform: translateX(5px);
+}
+
+.joke-text-small {
+  font-size: 0.95rem;
+  color: #333;
+  font-weight: 500;
+}

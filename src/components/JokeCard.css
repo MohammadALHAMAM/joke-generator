@@ -1,0 +1,53 @@
+.joke-card {
+  border: none;
+  border-radius: 15px;
+  background: white;
+  margin-bottom: 2rem;
+}
+
+.joke-card .card-body {
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.joke-content {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  padding: 2rem;
+  border-radius: 10px;
+  min-height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.joke-text {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #333;
+  margin: 0;
+  text-align: center;
+}
+
+.joke-setup {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.joke-delivery {
+  font-size: 1.1rem;
+  color: #555;
+  font-style: italic;
+  margin: 0;
+  text-align: center;
+}
+
+.share-section {
+  text-align: center;
+  padding-top: 1rem;
+  border-top: 1px solid #e9ecef;
+}

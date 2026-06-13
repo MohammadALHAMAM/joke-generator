@@ -1,0 +1,9 @@
+{
+  "short_name": "Joke Generator",
+  "name": "Joke Generator - Witze Generator",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#667eea",
+  "background_color": "#ffffff"
+}
